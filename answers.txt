@@ -1,0 +1,30 @@
+1. reb56@DESKTOP-QSBKIMI MINGW64 ~/source/repos/assignment2 (master)
+$ git push
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (13/13), 6.79 KiB | 3.39 MiB/s, done.
+Total 13 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/rb561/assignment2
+   f4975e5..9d6a5e9  master -> master
+
+2. git rev-list --count HEAD
+
+3. git log -1 --format=%cd -- README.md
+
+4. 2 reasons why branches are used in a Git repository: I: Prevents developers from making changes to the main code, and allows for independent testing and development. II: Allows for multiple developers to work on different tasks simultaneously. 
+
+5. git log shows a list of commits in the repo in chronological order, while git status provides info about the current state of the working directory.
+
+6. git log -- Vehicle.h
+
+7. git log --grep"file"
+
+8. I: Inheritence means that a class can inherit attributes and methods from another class. II: Polymorphism means that objects of different classes can be treated the same as objects of another class, allowing for methods to call on objects without knowing their specific type. III: Encapsulation is where attributes and methods are bundled together to operate on the attributes.
+
+9. The main difference between the "Dictator and Lieutenants" workflow and "Integration Manager" workflow is that the "Dictator and Lieutenant" workflow has one central repo ("Dictator" repo), which takes changes from various "Lieutenant" repos, whereas the "Integration Manager" workflow has each developer push changes to their own public repo, and then an integration manager reviews and implements changes to the main repo. The main difference between the two is that there are no intermediate layers of authority between developers and manager in the "Integration Manager" workflow.
+
+10. A team of 100 developers would benefit from the "Dictator and Lieutenant" workflow over the "Centralized" workflow for the following reasons: I: Specialization - Lieutenants can focus on specific areas of the code tailored to their expertise and improve the code's efficiency; II: Overhead reduction - Having specialized lieutenants can free the dictator to devote more time to the overall project goal and focus on strategic planning for the project; III: Scalability - A more specialized team of lieutenants can distribute the workload across developers more evenly and allow for a streamlined decision making process.
+
